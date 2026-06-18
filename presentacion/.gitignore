@@ -1,0 +1,48 @@
+# Dependencias
+node_modules/
+
+# Archivos de producción
+dist/
+build/
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Variables de entorno
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Archivos del sistema
+.DS_Store
+Thumbs.db
+
+# Configuración de editores
+.vscode/
+.idea/
+
+# Cache
+.cache/
+.parcel-cache/
+.eslintcache
+
+# Cobertura de pruebas
+coverage/
+
+# Archivos temporales
+tmp/
+temp/
+
+# Vite
+vite.config.ts.timestamp-*
+vite.config.js.timestamp-*
+
+# Archivos de TypeScript
+*.tsbuildinfo
